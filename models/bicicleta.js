@@ -30,9 +30,11 @@ Bicicleta.removeById = function(aBiciId){
 
 var a = new Bicicleta(1, 'rojo', 'urbana', [4.609911, -74.072095]);
 var b = new Bicicleta(2, 'verde', 'urbana', [4.608275, -74.075100]);
+var c = new Bicicleta(3, 'naranja', 'urbana', [4.598108, -74.083736]);
 
 Bicicleta.add(a);
 Bicicleta.add(b);
+Bicicleta.add(c);
 
 module.exports = Bicicleta;
 
